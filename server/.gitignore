@@ -12,6 +12,23 @@ dist
 dist-ssr
 *.local
 
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Credentials / private keys
+*.pem
+*.p12
+*.pfx
+*.key
+*firebase-adminsdk*.json
+*adminsdk*.json
+
+# Local archives
+*.zip
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
